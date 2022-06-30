@@ -1,0 +1,50 @@
+/*----------BASIC SETUP---------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: rgb(245, 245, 245);
+    color: #000;
+    font-family: 'Lato', sans-serif, monospace;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+    font-weight: 300;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+/*-------------------------*/
+
+nav {
+    margin-bottom: 300px;
+}
+
+.titleA {
+    font-family: 'DM Serif Text', serif;
+    font-size: 28px;
+}
+
+body {
+    height: 100vh;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.80)), to(rgba(0, 0, 0, 0.60))), url(../images/bgimg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../images/bgimg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.roles {
+    text-align: center;
+}
